@@ -1,0 +1,28 @@
+{
+  "213a348f-d2fe-4096-a4a1-2873c0698f59": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/d9767f2ca3b54c47999a57ba3140de64",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1533/1.0.1533.2600/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://rutuja1455.sharepoint.com/": {
+        "dataSources": {
+          "Product list": {
+            "tableName": "dd41f3ce-05bf-4265-8d8a-34850fb963b4"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Product list"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "213a348f-d2fe-4096-a4a1-2873c0698f59"
+  }
+}

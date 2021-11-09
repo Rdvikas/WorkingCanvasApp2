@@ -1,0 +1,55 @@
+HomeScreen As screen:
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =84
+        Width: =1366
+        ZIndex: =1
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver4.0'":
+        Height: =657
+        Items: ='Product list'
+        Layout: =Layout.Vertical
+        TemplatePadding: =4
+        TemplateSize: =288
+        Width: =1364
+        WrapCount: =4
+        Y: =111
+        ZIndex: =1
+
+        Image2 As image:
+            Height: =208
+            Image: =ThisItem.Image
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            Width: =216
+            X: =81
+            ZIndex: =1
+
+        Label3 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Name
+            Width: =314
+            X: =16
+            Y: =208
+            ZIndex: =2
+
+        Label4 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Category
+            X: =98
+            Y: =248
+            ZIndex: =3
+
+    Label2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =20
+        Text: ="Online Shopping"
+        Width: =346
+        X: =428
+        ZIndex: =3
+

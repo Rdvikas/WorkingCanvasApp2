@@ -1,0 +1,74 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 9,
+    "Gallery1": 12,
+    "galleryTemplate1": 13,
+    "HomeScreen": 10,
+    "Image2": 20,
+    "Label1": 4,
+    "Label1_1": 5,
+    "Label1_2": 6,
+    "Label2": 19,
+    "Label3": 21,
+    "Label4": 22,
+    "LoginScreen": 3,
+    "Rectangle1": 11,
+    "Rectangle2": 23,
+    "TextInput1": 7,
+    "TextInput1_1": 8
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "11/09/2021 04:27:04",
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 1,
+    "Product list": 0
+  },
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "gallery": 4,
+    "image": 5,
+    "label": 1,
+    "rectangle": 0,
+    "text": 2
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 6,
+    "Gallery1": 9,
+    "galleryTemplate1": 10,
+    "HomeScreen": 0,
+    "Image2": 11,
+    "Label1": 1,
+    "Label1_1": 2,
+    "Label1_2": 4,
+    "Label2": 8,
+    "Label3": 12,
+    "Label4": 13,
+    "LoginScreen": 0,
+    "Rectangle1": 7,
+    "Rectangle2": 0,
+    "TextInput1": 3,
+    "TextInput1_1": 5
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0183851,
+    "ControlCount": {
+      "label": 2,
+      "text": 1
+    },
+    "ErrorCount": 0
+  }
+}

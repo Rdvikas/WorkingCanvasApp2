@@ -1,0 +1,55 @@
+LoginScreen As screen:
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =524
+        Width: =466
+        X: =308
+        Y: =35
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        Height: =58
+        Text: ="Welcome"
+        Width: =216
+        X: =430
+        Y: =56
+        ZIndex: =2
+
+    Label1_1 As label:
+        Height: =58
+        Text: ="Username"
+        Width: =216
+        X: =378
+        Y: =147
+        ZIndex: =3
+
+    Label1_2 As label:
+        Height: =58
+        Text: ="Password"
+        Width: =216
+        X: =378
+        Y: =269
+        ZIndex: =4
+
+    TextInput1 As text:
+        Default: ="Text input"
+        X: =378
+        Y: =205
+        ZIndex: =5
+
+    TextInput1_1 As text:
+        Default: ="Text input"
+        X: =378
+        Y: =327
+        ZIndex: =6
+
+    Button1 As button:
+        Fill: =RGBA(203, 102, 102, 1)
+        OnSelect: =Navigate(HomeScreen)
+        Text: ="Login"
+        X: =458
+        Y: =442
+        ZIndex: =7
+
