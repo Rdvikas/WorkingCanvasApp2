@@ -53,3 +53,12 @@ LoginScreen As screen:
         Y: =442
         ZIndex: =7
 
+    Label5 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Size: =20
+        Text: ="Register"
+        X: =458
+        Y: =504
+        ZIndex: =8
+
